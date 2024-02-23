@@ -40,7 +40,7 @@ const OnSpotRegistration = () => {
     kriyaId: "",
     email: "",
     name: "",
-    fee: 150,
+    fee: 200,
   }
 
   const [formData, setFormData] = useState({
@@ -66,7 +66,7 @@ const OnSpotRegistration = () => {
   }
 
   const getFee = (college) => {
-    return college === PSG_COLLEGE ? 150 : 200
+    return college === PSG_COLLEGE ? 200 : 250
   }
 
   const getIsPSG = (college) => {
